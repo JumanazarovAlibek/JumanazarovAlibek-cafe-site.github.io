@@ -241,7 +241,6 @@ section{
     align-items: center;
     flex-direction: column;
     gap: 20px;
-    border: 1px solid #3B2F2F;
     padding: 30px;
    margin: 20px;
    border-radius: 15px;
@@ -308,9 +307,15 @@ footer{
 
     .services{
         flex-direction: column;
+        padding: 10px;
     }
     .services .boxs{
         flex-direction: column;
+        padding: 10px;
+    }
+
+    .services .boxs .box-1, .box-2, .box-3 {
+        padding: 30px;
     }
 
     .input-box input, .input-box textarea{
