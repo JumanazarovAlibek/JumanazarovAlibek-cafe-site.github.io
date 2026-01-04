@@ -26,6 +26,8 @@ header{
     align-items: center;
     position: fixed;
     width: 100%;;
+    z-index: 1000;
+    top: 0;
 }
 
 header {
@@ -252,19 +254,22 @@ section{
 }
 
 .btn2{
-    width: 398px;
-    height: 30px;
-    border-radius: 20px;
-    outline: none;
-    border: none;
-    border: 1px solid #3B2F2F;
-    transition: .5s;
+    background-color: #3B2F2F;
+    width: 400px;
+    height: 40px;
+    color: white;
+    border-radius: 10px;
+     font-size: 18px;
+     border: none;
+     cursor: pointer;
+     display: flex;
+        justify-content: center;
+        align-items: center;
 }
 
 .btn2:hover{
-    background-color: #3B2F2F;
+    background-color: #5C4B4B;
     color: white;
-    transition: .5s;
 }
 
 footer{
